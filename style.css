@@ -1,0 +1,179 @@
+/* import link from google fonts is here */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.container{
+    display: flex;
+    width: 100%;
+    max-width: 1300px;
+    margin: auto;
+    align-items: center;
+}
+
+.man-img img{
+    width: 550px;
+    padding-top: 50px;
+}
+
+.about-text{
+    flex-wrap: wrap;
+    flex-basis: 100%;
+}
+
+.about-text h2{
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.about-text h1{
+    font-size: 62px;
+    padding: 0 20px;
+}
+
+.about-text p{
+   width: 625px;
+   font-style: italic;
+   padding: 20px 20px;
+}
+
+.btn{
+    padding: 20px 30px;
+    margin: 40px 20px;
+    background-color: #ecc124;
+    border:none;
+    line-height: 5px;
+}
+
+.btn a{
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 600;
+    color: #000;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    word-wrap: break-word;
+    line-height: 1.6;
+}
+
+/* cards starts from here */
+
+.card-box{
+    display: flex;
+    max-width: 1300px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+}
+
+.about-us-card{
+    background-color: #ecc124;
+    width: 600px;
+    height: 450px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.card-icon img{
+    width: 100px;
+    padding: 5px;
+    margin: 25px 0px 0px 0px;
+    background-color: #fff;
+    border-radius: 50%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.about-us-card h1{
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 200;
+    margin: 20px 0px 0px 0px;
+}
+
+.about-us-card p{
+    font-size: 16px;
+    font-weight: 500;
+    font-style: italic;
+    margin: 20px 20px;
+}
+
+.btn-2 {
+    background-color: #fff !important;
+}
+
+.card2{
+    background-color: #f3c719;
+}
+
+.card3{
+    background-color: #f5d654;
+}
+
+.card4{
+    background-color: #f9e79b;
+}
+
+
+
+
+@media screen and (max-width:768px){
+
+    .container{
+        flex-wrap: wrap-reverse;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .about-text p{
+        font-size: 19px;
+        width: 475px;
+        font-style: italic;
+        padding: 20px 20px;
+     }
+
+     .man-img img{
+        width: 400px;
+        padding-top: 0px;
+    }
+
+    .about-text h2{
+        margin-bottom: 0;
+    }
+
+    .about-text .btn{
+        margin-bottom: 0;
+        margin-top: 10px;
+    }
+
+    .about-us-card{
+        max-width: 100%;
+        width: 8500px;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .card-box{
+       flex-wrap: wrap;
+       width: 380px;
+       height: 250px;
+    }
+
+    .about-us-card{
+        margin-bottom: 20px;
+    }
+}
